@@ -1,0 +1,136 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(./assets/bg.png);
+    background-size: 100% 100%;
+    background-color: black;
+}
+
+.score {
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    padding-top: 2vmax;
+    justify-content: center;
+}
+
+.score-1, .score-2, .dash {
+    font-size: 5rem;
+    margin: 1rem;
+}
+
+.center {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-1 {
+    color: aliceblue;
+    width: 28vmax;
+    border: 1px solid yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-2 {
+    color: aliceblue;
+    height: 28vmax;
+    width: 28vmax;
+    border: 1px solid yellow;
+}
+
+.bottom-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.bottom-logo img {
+    height: 5vmax;
+    width: 5vmax;
+    padding-bottom: 0.6rem;
+}
+
+.you {
+    display: flex;
+    font-size: 2rem;
+    margin-top: 0.4rem;
+    justify-content: center;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.real-img {
+    margin-bottom: 1rem;
+    height: 19vmax;
+    width: 100%;
+}
+
+.won {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color:rgb(107, 8, 255);
+    border: 2px solid yellow;
+    box-shadow: 2px 5px 10px white;
+    display: none;
+}
+
+.end-game {
+   
+    background-color: black;
+    background-image: url(./assets/bg.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: none;
+
+}
+
+.play-again {
+    color:rgb(107, 8, 255) ;
+    margin-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f6cf6b;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: 900;
+    border-radius: 12px;
+    display: none;
+}
+
+.rock-r, .comp-imgg {
+    height: 20vmax;
+    width: 25vmax;
+}
+
+.compp {
+    display: flex;
+    font-size: 2rem;
+    margin-top: 0.4rem;
+    justify-content: center;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+
+.rock:hover, .paper:hover, .scissors:hover{
+    transform: scale(0.8);
+}
+.rock:active, .paper:active, .scissors:active{
+    transform: scale(0.6);
+}
+.rock, .paper, .scissors{
+    transition: 0.3s;
+}
+
