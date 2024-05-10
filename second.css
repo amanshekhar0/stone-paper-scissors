@@ -83,7 +83,7 @@
     color:rgb(107, 8, 255);
     border: 2px solid yellow;
     box-shadow: 2px 5px 10px white;
-    display: none;
+    
 }
 
 .end-game {
@@ -139,4 +139,8 @@
 .versus
 {
     height: 60vh;
+}
+.b1{
+    background: transparent;
+    border: none;
 }
