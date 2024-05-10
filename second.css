@@ -111,8 +111,10 @@
 }
 
 .rock-r, .comp-imgg {
-    height: 20vmax;
+    
     width: 25vmax;
+    padding-top: 3rem;
+    
 }
 
 .compp {
